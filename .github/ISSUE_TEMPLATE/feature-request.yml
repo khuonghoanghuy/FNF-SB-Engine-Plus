@@ -1,0 +1,24 @@
+name: SB Engine Feature Request tab
+description: Add a feature request here for next release
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: What feature do you want to get added on the SB Engine?
+    validations:
+      required: true
+  - type: dropdown
+    id: eyetest
+    attributes:
+      label: To test your sight, and reliability, please select the option of what should NOT be requested.
+      options:
+        - Art sumbition for SB Engine 
+        - New text on HUD
+        - Useful functions
+        - Feedback support
+        - Really good idea
+        - New functions
+        - Better lua support for SB Engine
+        - New optimization for SB Engine
+    validations:
+      required: true
